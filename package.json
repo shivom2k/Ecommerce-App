@@ -1,0 +1,31 @@
+{
+  "name": "express-shopping_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devstart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "mysql2": "^2.1.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.3.3",
+    "sqreen": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
